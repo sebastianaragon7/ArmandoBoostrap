@@ -17,12 +17,16 @@
 </head>
 <body>
     <header>
-        <div class="header">
-          <div>
-            <img class="logotipo" src="./css/img/logo2.png">
-          </div>
-          <div class="">
-            <nav class="menu"><ul class="nav justify-content-end">
+        <div class="container">
+          <a href="./index.html"><span><img class="logotipo" src="css/img/logo2.png" alt="logotipoArmandoMedialunas">
+        </div>
+
+        <div class="">
+          <nav class="menu">
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link active" href="./index.html">Home</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link active" href="./historia.html">Historia</a>
               </li>
@@ -38,17 +42,68 @@
               <li class="nav-item">
                 <a class="nav-link" href="./contacto.html">Contacto</a>
               </li>
-            </ul></nav>
-          </div>
+            </ul>
+          </nav>
         </div>
-      </header>
+    </header>
 
-      <footer>
-        <div>
-          <p class="frase1">!Veni a probarnos!</p>
-          <p class="frase2">!Las mejores Medialunas!</p>
-        </div>
-        <div class="redes">
+    <section>
+        <article>
+            <div>
+                <img src="./css/img/localPorDentro.jpg" alt="localDePanaderia">
+                <h3>¿Alguna sugerencia o detalles que quieras comunicarnos?</h3>
+        </article>
+
+        <article>
+            <form>
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <label for="validationDefault01">Nombre*</label>
+                    <input type="text" class="form-control" id="validationDefault01" required>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="validationDefault02">Apellido*</label>
+                    <input type="text" class="form-control" id="validationDefault02" required>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <label for="validationDefault03">Ciudad*</label>
+                    <input type="text" class="form-control" id="validationDefault03" required>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <label for="validationDefault04">Provincia*</label>
+                    <select class="custom-select" id="validationDefault04" required>
+                      <option selected disabled value="">Elije...</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <label for="validationDefault05">Código Postal*</label>
+                    <input type="text" class="form-control" id="validationDefault05" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Consulta*</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                    <label class="form-check-label" for="invalidCheck2">
+                      Acepto términos y condiciones
+                    </label>
+                  </div>
+                </div>
+                <button class="btn btn-primary" type="submit">Enviar Formulario</button>
+              </form>
+        </article>
+
+    </section>
+
+    <footer>
+ 
+        <div class="redesS">
           <p>¡Seguinos en nuestras redes!</p>
           <a href="https://www.facebook.com/armandomedialunaok/"><i class="fa-brands fa-facebook"></i>Facebook</a>
           <a href="https://www.instagram.com/armandomedialunas/?hl=es-la"><i class="fa-brands fa-instagram-square"></i>Instagram</a>
@@ -56,6 +111,7 @@
         <div class="finalDos">
           <h2 class="r">ArmandoMedialunas®</h2>
         </div>
-      </footer>
+
+    </footer>
 </body>
 </html>
