@@ -12,15 +12,13 @@ header{
 nav{
     font-family: 'Lobster', cursive;
     font-size: 25px;
-    margin: 20px;
-    padding: 10px;
 }
 li{
-    margin: 25px;
+    margin: 50px;
 }
 .logotipo{
     display: flex;
-    width: 140px;
+    width: 120px;
     margin-top: 10px;
 }
 section{
